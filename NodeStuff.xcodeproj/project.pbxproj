@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		161799471CBC1E0600576D25 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 161799451CBC1E0600576D25 /* TreeNode.cpp */; };
+		168E90491CBC2D450064CBC7 /* CTECBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 168E90471CBC2D450064CBC7 /* CTECBinaryTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		161799451CBC1E0600576D25 /* TreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		161799461CBC1E0600576D25 /* TreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
+		168E90471CBC2D450064CBC7 /* CTECBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECBinaryTree.cpp; sourceTree = "<group>"; };
+		168E90481CBC2D450064CBC7 /* CTECBinaryTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECBinaryTree.hpp; sourceTree = "<group>"; };
 		16D716F31C9B2DE400838DEC /* NodeStuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NodeStuff; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D716FE1C9B2E5600838DEC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; path = ../../../cWorkSpace/NodeProject/src/Controller; sourceTree = "<group>"; };
 		16D716FF1C9B2E5600838DEC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../../../cWorkSpace/NodeProject/src/Model; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				16D716FF1C9B2E5600838DEC /* Model */,
 				161799451CBC1E0600576D25 /* TreeNode.cpp */,
 				161799461CBC1E0600576D25 /* TreeNode.hpp */,
+				168E90471CBC2D450064CBC7 /* CTECBinaryTree.cpp */,
+				168E90481CBC2D450064CBC7 /* CTECBinaryTree.hpp */,
 			);
 			path = NodeStuff;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161799471CBC1E0600576D25 /* TreeNode.cpp in Sources */,
+				168E90491CBC2D450064CBC7 /* CTECBinaryTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -71,14 +71,3 @@ void TreeNode<Type> :: setParent(TreeNode<Type> * parent)
 {
     this->parent = parent;
 }
-//template <class Type>
-//Type Node<Type> :: getValue()
-//{
-//    return this->value;
-//}
-//
-//template <class Type>
-//void Node<Type> :: setValue(const Type& value)
-//{
-//    this->value = value;
-//}
