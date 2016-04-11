@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		161799471CBC1E0600576D25 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 161799451CBC1E0600576D25 /* TreeNode.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		16D716F11C9B2DE400838DEC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		161799451CBC1E0600576D25 /* TreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
+		161799461CBC1E0600576D25 /* TreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		16D716F31C9B2DE400838DEC /* NodeStuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NodeStuff; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D716FE1C9B2E5600838DEC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; path = ../../../cWorkSpace/NodeProject/src/Controller; sourceTree = "<group>"; };
 		16D716FF1C9B2E5600838DEC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../../../cWorkSpace/NodeProject/src/Model; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 			children = (
 				16D716FE1C9B2E5600838DEC /* Controller */,
 				16D716FF1C9B2E5600838DEC /* Model */,
+				161799451CBC1E0600576D25 /* TreeNode.cpp */,
+				161799461CBC1E0600576D25 /* TreeNode.hpp */,
 			);
 			path = NodeStuff;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161799471CBC1E0600576D25 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +243,7 @@
 				16D716FC1C9B2DE400838DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
