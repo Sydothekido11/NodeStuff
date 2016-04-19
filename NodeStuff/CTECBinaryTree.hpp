@@ -22,7 +22,8 @@ private:
     bool balanced;
     bool contains(Type value, CTECBinaryTree<Type> * currentTree);
     void calculateSize(TreeNode<Type> * currentNode);
-        
+    TreeNode<Type>  * getRightMostChild(CTECBinaryTree<Type> leftSubTree);
+    TreeNode<Type>  * getLeftMostChild(CTECBinaryTree<Type> rightSubTree);
 public:
     CTECBinaryTree();
     ~CTECBinaryTree();
