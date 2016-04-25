@@ -24,11 +24,12 @@ private:
     void calculateSize(TreeNode<Type> * currentNode);
     TreeNode<Type>  * getRightMostChild(CTECBinaryTree<Type> leftSubTree);
     TreeNode<Type>  * getLeftMostChild(CTECBinaryTree<Type> rightSubTree);
+    void remove(TreeNode<Type> * nodeToBeDeleted);
 public:
     CTECBinaryTree();
     ~CTECBinaryTree();
     bool insert(const Type& value);
-    Type remove(const Type& value);
+    void remove(const Type& value);
     bool contains(Type value);
     int getSize();
     int getHeight();

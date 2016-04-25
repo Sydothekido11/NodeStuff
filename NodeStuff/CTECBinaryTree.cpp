@@ -183,6 +183,20 @@ TreeNode<Type> * CTECBinaryTree<Type> :: getLeftMostChild(CTECBinaryTree<Type> r
 
 
 
+template <class Type>
+void CTECBinaryTree<Type> :: remove(TreeNode<Type> * nodeToBeRemoved)
+{
+    TreeNode<Type> * current;
+    TreeNode<Type> * trailing;
+    TreeNode<Type> * temp;
+    
+    if(nodeToBeRemoved == nullptr)
+    {
+        cerr << "Nothing is there." << endl;
+    }
+    
+    
+}
 
 
 
